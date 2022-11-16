@@ -1,0 +1,26 @@
+body {
+    /* background-color: rgba(6, 105, 145, 0.486); */
+    /* background-color: #3b5998; */
+    background-image: url("../images/photo-1483232539664-d89822fb5d3e.png");
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 1950px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#language {
+    font-size: 80px; color: goldenrod;
+}
+
+.some-text {
+    color: blue;
+}
+
+#text {
+    color: yellow;
+}

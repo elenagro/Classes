@@ -1,0 +1,80 @@
+.flag {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid;
+
+}
+.first_blue {
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.first_white {
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.first_red {
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    float: left;
+}
+.second_red {
+    background-color: darkred;
+    width: 300px;
+    height: 50px;
+}
+.second_blue {
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+.second_orange {
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+}
+.third_green {
+    background-color: green;
+    width: 110px;
+    height: 150px;
+    float: left;
+}
+.right-one {
+    float: left;
+}
+.third_yellow {
+    background-color: yellow;
+    width: 190px;
+    height: 75px;
+}
+.third_red {
+    background-color: red;
+    width: 190px;
+    height: 75px;
+}
+.fourth_orange {
+
+}
+.fourth_white {
+
+}
+.fourth_white {
+
+}
+.fourth_green {
+
+}
+.fifth_blue {
+
+}
+.fifth_black {
+
+}
+.fifth_white {
+
+}

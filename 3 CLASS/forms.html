@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+        <form>
+            <p>
+                <input type="text" placeholder="Enter your username" />
+            </p>
+            <p>
+                <input type="password" placeholder="Enter your password" />
+            </p>
+            <p>
+                <input type="date" placeholder="Choose a date">
+            </p>
+            <p>
+                <input type="number" placeholder="Enter a number" min="0" max="1000">
+            </p>
+            <p>
+                <select>
+                    <option selected hidden>Select a color</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                </select>
+            </p>
+            <p>
+                <select multiple>
+                    <option selected hidden>Select a color</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Blue">Blue</option>
+                </select>
+            </p>
+            <p>
+                <input id="color-red" type="checkbox" value="Red"/>
+                <label for="color-red">Red</label>
+            </p>
+            <p>
+                <input id="color-yellow" type="checkbox" value="Yellow"/>
+                <label for="color-yellow">Yellow</label>
+            </p>
+            <p>
+                <input id="color-black" type="checkbox" value="Black"/>
+                <label for="color-black">Black</label>
+            </p>
+            <p>
+                <input id="color-white" type="checkbox" value="White"/>
+                <label for="color-white">White</label>
+            </p>
+
+            <p>
+                <input name="colors" id="color-cyan" type="radio" value="Cyan"/>
+                <label for="color-cyan">Cyan</label>
+            </p>
+            <p>
+                <input name="colors" id="color-magenta" type="radio" value="Magenta"/>
+                <label for="color-magenta">Magenta</label>
+            </p>
+            <p>
+                <input name="colors" id="color-karbon" type="radio" value="Karbon"/>
+                <label for="color-karbon">Karbon</label>
+            </p>
+            <p>
+                <input name="colors" id="color-purple" type="radio" value="Purple"/>
+                <label for="color-purple">Purple</label>
+            </p>
+            <!-- Dva nacina za button -->
+            <p>
+                <button>Send</button>
+                <input type="button" value="Send" />
+            </p>
+        </form>
+
+    </body>
+</html>

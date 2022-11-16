@@ -1,0 +1,29 @@
+#smallest {
+    font-size: 20px;
+    color: aqua;
+    background-color: rgba(22, 132, 54, 0.5);
+}
+
+#smaller {
+    font-size: 40px;
+    color: coral;
+    background-color: rgba(201, 102, 33, 0.8);
+}
+
+#small {
+    font-size: 60px;
+    color: cornflowerblue;
+    background-image: url(../images/first\ picture.png.png);
+}
+
+#big {
+    font-size: 80px;
+    color: darkslategray;
+    background-image: url(../images/second\ picture.png.png);
+}
+
+#biggest {
+    font-size: 100px;
+    color: saddlebrown;
+    background-image: url(../images/third\ picture.png);
+}

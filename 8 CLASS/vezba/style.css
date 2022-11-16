@@ -1,0 +1,46 @@
+.parent {
+    background-color: darkblue;
+    width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 5px;
+}
+.box {
+    padding: 50px;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.box-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box-6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+/* .box-4 { 
+    grid-row-start: 2;
+    grid-row-end: 4;
+} */
+/* .box-6 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+} */

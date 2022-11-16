@@ -1,0 +1,33 @@
+body {
+    /* margin: 100px; */
+    /* margin-top: 100px; */
+    /* margin: 100px 0px 25px 90px; */
+    /* margin: 100px 0px; */
+    margin: 0px;
+    font-family: sans-serif;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    float: left;
+    margin: 0px 50px 0px 0px;
+    padding: 20px;
+}
+.box_2 {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    float: left;
+}
+.button {
+    margin: 50px;
+    background-color: red;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
