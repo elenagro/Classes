@@ -79,15 +79,27 @@
 // console.log(SayHello());
 
 // nizi
-var movies = [
-    {title: "Mildred Pierce", year: 1945},
-    {title: "Odd Man Out", year: 1957},
-    {title: "Kiss Me Deadly", year: 1960},
-    {title: "Psycho", year: 1958}
-];
-console.log(movies);
+// var movies = [
+//     {title: "Mildred Pierce", year: 1945},
+//     {title: "Odd Man Out", year: 1957},
+//     {title: "Kiss Me Deadly", year: 1960},
+//     {title: "Psycho", year: 1958}
+// ];
+// console.log(movies);
 
-movies.filter(movie => {
-    return movie.year === 1960;
-});
+// movies.filter(movie => {
+//     return movie.year === 1960;
+// });
+
+function LargestNumber(numString) {
+    var largest = numString[0];
+    for (let i = 0; i < numString.length; i++) {
+        if (largest < numString[i]) {
+            largest = numString[i];
+        }
+    }
+    return `Number ${largest} is the largest number in this string: ${numString}`;
+}
+
+console.log(LargestNumber([26, 89, 105, 10, 690, 45, 2]));
 
