@@ -1,0 +1,11 @@
+{
+    "name": "Elena Grozdanoska",
+    "location": "Aerodrom, Skopje, Macedonia",
+    "age": 31,
+    "hobbies": ["javascript", "film", "photography"],
+    "address": {
+        "street": "Bul. Jane Sandanski 1000",
+        "appartment": 18
+    },
+    "has_drivers_license": true     
+}
