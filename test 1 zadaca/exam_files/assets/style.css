@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    margin: 0px auto;
+    padding: 20px;
+    background-color: red;
+    width: 400px;
+    height: 1200px;
+    color: #fff;
+}
+.gadot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.gadot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+.hello {
+    font-weight: 0px;
+}
+
+.gadot {
+    font-weight: 10px;
+}
+
+hr {
+    border-color: lightgrey;
+    /* display: flex;
+    position: relative; */
+}
+
+.day {
+    /* display: flex; */
+    /* position: absolute; */
+    font-weight: 800;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-1 {
+    background-color: rgb(37, 36, 36);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+
+}
+
+.box-2 {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.heading{
+    color: #000;
+}
+.lorem {
+    color: grey;
+}
+.green-vertical {
+    width: 10px;
+    background-color: #61D16E;
+}
+.closed {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
